@@ -25,6 +25,14 @@
     <?php include '../partial/conn_audio_another.php' ?>
 
 
+    
+    
+    <!-- FICHIERS EN COURS DE REALISATION -->
+    <!-- FICHIERS EN COURS DE REALISATION -->
+    <!-- FICHIERS EN COURS DE REALISATION -->
+    
+    
+    
     <!-- boucle sur la card -->
     <!-- On affiche chaque entrée une à une -->
     <?php
