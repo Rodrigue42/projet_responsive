@@ -1,0 +1,94 @@
+/* titre des musiques des animes + lien dessous */
+.titre_sommaire {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 35px;
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* titre des musiques des animes + lien dessous */
+
+
+/* allignement des lecteur de la boucle */
+#conteneur {
+    display: inline-block;
+    justify-content: space-around;
+    margin-right: 35px;
+}
+
+#content {
+    font-size: 1em; 
+    width: 71.875%; 
+    max-width: 960px;
+    text-align: left;
+    margin: 250px; 
+    padding: 3.84615384615385%;
+    margin-top: -30px;
+}
+   
+.columns {   
+    -moz-column-width: 11.5em;
+    -webkit-column-width: 11.5em; 
+    column-width: 11em;
+    margin-right: 0px;
+}
+
+.columns ul {
+    margin-left: -200px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.columns ul li:first-child {
+    margin-top: 0px;
+}
+
+/* liste des links manga vers audio */
+
+.card {
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-bottom: 30px;
+    width: 270px;
+    height: 96px;
+    margin-left: 9px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 1px 2px 2px black;
+}
+
+
+.title-audio {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.lecteur1 {
+    text-align: center;  
+    padding-top: 30px;
+}
+
+.lien_musique {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+}
+
+.lien_musique:hover {
+    color: #FFCC00;
+    font-weight: bold;
+}
+
+
+
+
+
+

@@ -1,0 +1,466 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  position: relative;
+  font-family: Arial, Helvetica, Sans-serif;
+  background: url(../image/background00.jpg) center no-repeat;
+  /* background-size: cover; */
+  background-color: #7a77aa;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-bottom: -10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  text-shadow: 1px 2px 2px rgb(0, 0, 0); /* shadow menu tel titre menu */
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.705);
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-bottom: -10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 1px 2px 2px black;
+}
+
+.info-carte {
+  font-size: 1.9rem;
+}
+
+/* image responsive des cartes */
+.img-responsive {
+  display: inline-block;
+  max-width: 45%;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+img {
+  max-width: 100%;
+  height: 300px;
+}
+/* image responsive des cartes */
+
+/* header */
+.jumbotron {
+  background-color: rgb(240, 172, 172);
+  color: white;
+  text-shadow: 1px 2px 2px black;
+  margin-bottom: 45px;
+}
+/* header */
+
+/* debut nav responsive */
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -130px;
+}
+
+.navbar .nav {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem
+}
+
+.navbar-inverse {
+  background-color: #070617;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #775d5d;
+}
+
+.dropdown-menu {
+  background-color: #775d5d;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-color: #775d5d;
+}
+
+.navbar-inverse {
+  background-image: none;
+  margin-top: -60px;
+  position: relative;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-image: none;
+}
+
+.navbar-inverse {
+  border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #FFCC00;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #FFCC00;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #FFCC00
+}
+
+.dropdown-menu>li>a {
+  color: #FFFFFF
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-top-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-bottom-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: #FFFFFF;
+}
+/* fin nav responsive  */
+
+/* effet image */
+.img-thumbnail {
+  margin: 30px auto;
+}
+
+.image-box {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-box img {
+  width: 100%;
+  transition: .4s
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
+}
+
+/* effet image */
+
+/* carte d'information du manga */
+.titre_carte {
+  color: white;
+  text-shadow: 1px 2px 2px black;
+  margin-bottom: -10px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-left: 30px;
+  letter-spacing: 2px;
+}
+
+.panel-title {
+	cursor:pointer;
+}
+h4.tab-title
+{
+	font-family: "avenirheavy", Helvetica, Arial, "sans-serif";
+	font-weight: normal;
+	font-size: 22px;
+}
+
+.list-group-item {
+  background-color: rgb(240, 172, 172);
+  text-shadow: 1px 2px 2px rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.vertab-content ul, .vertab-content ol {
+	padding-left: 15px;
+}
+@media (min-width:768px) {
+.vertab-container {
+	z-index: 10;
+	background-color: rgb(48, 73, 110); /* fond de cellule age auteur etc ecran pc */
+	padding: 0 !important;
+	border: 2px solid #ddd;
+	margin-top: 20px;
+	background-clip: padding-box;
+	opacity: 0.97;
+	overflow: auto;
+	margin-bottom: 50px;
+}
+.vertab-menu {
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	display: block;
+	background-color: #ffffff;
+}
+.vertab-menu .list-group {
+	margin-bottom: 0;
+}
+.vertab-menu .list-group>a {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+.vertab-menu .list-group>a, .vertab-menu .list-group>a {
+	color: #fffdfd;
+	background-image: none;
+	background-color: rgb(240, 172, 172);
+	border-radius: 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #CACACA;
+  padding: 15px 10px;
+}
+.vertab-menu .list-group>a.active, .vertab-menu .list-group>a:hover, .vertab-menu .list-group>a:focus {
+	position: relative;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid rgb(184, 181, 181);
+	border-left: 5px solid rgb(161, 158, 158); /* bordure de selection menu carte description pc  */
+	padding-left: 5px;
+	background-image: none;
+  color: #FFCC00;
+}
+.vertab-content {
+	padding-left: 20px;
+	padding-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.vertab-accordion .vertab-content:not(.active) {
+	display: none;
+}
+.vertab-accordion .vertab-content.active .collapse {
+	display: block;
+}	
+.vertab-container .panel-heading {
+	display: none;
+}
+.vertab-container .panel-body {
+	border-top: none !important;
+}
+}
+
+@media (max-width:767px) {
+.vertab-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.vertab-container .vertab-menu {
+	display: none;
+}
+.vertab-container .panel-heading {
+	background-color: rgb(240, 172, 172);
+	color: #ffffff;
+	padding: 15px;
+	border-bottom: 1px solid #F6F6F6;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-left: 5px solid #F6F6F6;
+}
+.vertab-container .panel-heading:hover, .vertab-container .panel-heading:focus, .vertab-container .panel-heading.active {
+	border-left: 5px solid rgb(161, 158, 158); /* petit trait de selection gauche menu tel */
+	border-bottom: 1px solid rgb(48, 73, 110);
+}
+
+
+.panel-collapse.collapse, .panel-collapse.collapsing {
+  background-color: rgb(48, 73, 110); /* fond de cellule ecran tel */
+  color: white;
+}
+.vertab-container .panel-collapse .panel-body {
+	border-top: none !important;
+}
+}
+
+/* video trailer */
+.video-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+  .video-wrap iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      max-height: 1080px;
+  }
+/* video trailer */
+
+.faq-list {
+  overflow: hidden;
+  width: 520px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.age {
+  float: left;
+  margin-right: 5%;
+  width: 30%;
+}
+  
+.auteur {
+  float: left; 
+  width: 55%;
+  margin-bottom: 2em;
+  
+}
+/* carte d'information du manga */
+
+/* footer */
+.footer-dark {
+  padding: 50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+  margin-left: -800px;
+  margin-right: -800px;
+  text-align: center;
+  text-shadow: 1px 2px 2px black;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+  padding-left: 0px;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+  color: #FFCC00;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:-10px;
+  margin-top: 30px;
+}
+
+/* footer */
+
+.pagination {
+  font-size: 22px;
+  text-decoration: none;
+  margin-left: 40vw;
+}
+
+.pagination a.selected {
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+  text-shadow: 1px 2px 2px rgb(146, 142, 142);
+}
+

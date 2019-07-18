@@ -1,0 +1,15 @@
+.card-img-top {
+    height: 180px;
+    width: 250px;
+    border: 1px solid white;
+}
+
+.card-text {
+    width: 250px;
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
